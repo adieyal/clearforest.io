@@ -84,9 +84,8 @@ button {background: transparent;border: 0;}
 html,body{
     height: 100%;
     width: 100%;
-    background:url(../images/forest_girl.jpg)no-repeat;
-    background-size:cover;
 }
+
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.3s 0.3s ease; 
   -moz-transition: opacity 0.3s 0.3s ease; 
@@ -192,12 +191,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    /*
     background:url(../images/forest_girl.jpg)no-repeat;
     background-size:cover;
     background-position: center center;
-    */
-    height:590px;
+    height:100%;
     width: 100%;
 }
 .welcome-hero:before{
